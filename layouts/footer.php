@@ -42,7 +42,7 @@
                         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                             <!-- Content -->
                             <h6 class="text-uppercase fw-bold mb-4">
-                                <i class="fas fa-gem me-3"></i>Kementrian Pariwisata
+                            <i class="fas fa-map-signs me-3" aria-hidden="true"></i></i>Kementrian Pariwisata
                             </h6>
                             <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum debitis culpa ratione ea facilis quia sit accusantium deleniti dolor a.
@@ -54,19 +54,19 @@
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold mb-4">
-                                Products
+                                MENU
                             </h6>
                             <p>
-                                <a href="#!" class="text-reset">Angular</a>
+                                <a href="#!" class="text-reset">Tentang Kami</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">React</a>
+                                <a href="#!" class="text-reset">Hubungi Kami</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Vue</a>
+                                <a href="#!" class="text-reset">Berita</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Laravel</a>
+                                <a href="#!" class="text-reset">Fitur</a>
                             </p>
                         </div>
                         <!-- Grid column -->
@@ -75,19 +75,19 @@
                         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold mb-4">
-                                Useful links
+                                WISATA
                             </h6>
                             <p>
-                                <a href="#!" class="text-reset">Pricing</a>
+                                <a href="#!" class="text-reset">Alam</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Settings</a>
+                                <a href="#!" class="text-reset">Budaya</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Orders</a>
+                                <a href="#!" class="text-reset">Olahraga</a>
                             </p>
                             <p>
-                                <a href="#!" class="text-reset">Help</a>
+                                <a href="#!" class="text-reset">Kuliner</a>
                             </p>
                         </div>
                         <!-- Grid column -->
@@ -96,13 +96,13 @@
                         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                            <p><i class="fa fa-home me-3"></i> New York, NY 10012, US</p>
+                            <p><i class="fa fa-home me-3"></i> Banyuwangi, NYC 10012, BWX</p>
                             <p>
                                 <i class="fa fa-envelope me-3"></i>
-                                info@example.com
+                                nurhanif2312@gmail.com
                             </p>
-                            <p><i class="fa fa-phone me-3"></i> + 01 234 567 88</p>
-                            <p><i class="fa fa-print me-3"></i> + 01 234 567 89</p>
+                            <p><i class="fa fa-phone me-3"></i> + 62 896 665 576</p>
+                            <p><i class="fa fa-print me-3"></i> + 62 896 665 576</p>
                         </div>
                         <!-- Grid column -->
                     </div>
