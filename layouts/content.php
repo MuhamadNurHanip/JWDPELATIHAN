@@ -1,8 +1,19 @@
 <div class="container mt-3">
 <div class="row mt-3">
+<div class="row align-items-center">
+            <div class="col-8"> <!-- Kolom kiri untuk teks -->
+                <div class="px-5 py-3">
+                    <h1>Top Destinations</h1>
+                    <p>Berikut ini daftar wisata yang sering dikunjungi wisatawan.</p>
+                </div>
+            </div>
+            <div class="col-4 text-end"> <!-- Kolom kanan untuk tombol -->
+                <button class="btn btn-primary">Explore All</button> <!-- Tombol di pojok kanan -->
+            </div>
+        </div>
             <div class="col-12 col-md-9">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
+                <div class="row row-cols-1 row-cols-md-3 g-4">  
+                <div class="col">
                         <div class="card">
                             <img src="assets/image/pulaumerah3.jpg" class="card-img-top">
                             <div class="card-body">

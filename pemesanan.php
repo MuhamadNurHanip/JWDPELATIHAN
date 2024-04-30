@@ -7,7 +7,7 @@ include 'layouts/header.php';
 <div class="row mt-3">
     <div class="col-12 col-md-9">
         <h2>Form Pemesanan Paket Wisata</h2>
-        <form action="" method="" autocomplete="">
+        <form action="validasisimpan.php" method="" autocomplete="">
             <div class="row">
                 <div class="mb-3 col-12 col-md-6">
                     <label for="nama-pemesan" class="form-label">Nama Pemesan</label>
