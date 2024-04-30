@@ -18,7 +18,7 @@
 <body>
     <!-- Header section -->
     <div class="container mt-3">
-        <div class="px-5 py-3 bg-secondary text-white">
+        <div class="px-5 py-3 bg-secondary text-white round">
             <h1>Wisata Banyuwangi</h1>
             <p>Wonderfull Osing of Java</p>
         </div>
