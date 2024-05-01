@@ -1,5 +1,48 @@
 <?php
-// Sertakan bagian header dari layouts
+$host = 'localhost';
+$user = 'root';
+$password = '';
+$database = 'jwd_pelatihan';
+
+$koneksi = new mysqli($host, $user, $password, $database);
+
+if (mysqli_connect_errno()) {
+    echo "Koneksi ke database gagal dengan kode kesalahan: " . $koneksi->connect_errno;
+    echo " dan pesan kesalahan: " . $koneksi->connect_error;
+} else {
+    echo "Koneksi berhasil!";
+}
+
+$nama = $_POST("nama-pemesan"); 
+$paket = $_POST("nama-paket");
+$tglpesan = $_POST("tgl-pesan");
+$durasi = $_POST("durasi");
+$jumlahpeserta = $_POST("jumlah-orang");
+
+// $makanan = $_POST("makanan");
+// $transportasi = $_POST("transportasi");
+
+// print_r($_POST);
+
+$penginapan = isset($_POST['penginapan'])?"Y":"N";
+$makanan = isset($_POST['makanan'])?"Y":"N";
+$transportasi = isset($_POST['transportasi'])?"Y":"N";
+$jumlahTagihan = $_POST['total-pembayaran'];
+
+$query="INSERT INTO 
+paket_wisata (nama, tgl_pesan, durasi, jml_orang, penginapan, transportasi, makanan, harga_paket, harga_layanan, total) 
+VALUES ($nama, $tglpesan, $durasi, $jumlahpeserta, $penginapana, $transportasi, $makanan, $jumlahtagihan)";
+
+// if(isset($_POST['penginapan'])){
+//     $penginapan="Y";
+// }
+
+
+
+?>
+
+
+<?php
 include 'layouts/header.php';
 ?>
 <div class="container mt-3">
@@ -21,7 +64,7 @@ include 'layouts/header.php';
                         <table class="table">
                             <tr>
                                 <td>Nama</td>
-                                <td>M. Alvian</td>
+                                <td>M. Nur Hanif</td>
                             </tr>
                             <tr>
                                 <td>Jumlah Peserta</td>

@@ -7,7 +7,7 @@ include 'layouts/header.php';
     <div class="row mt-3">
         <div class="col-12 col-md-9">
             <h2>Form Pemesanan Paket Wisata</h2>
-            <form action="validasisimpan.php" method="" autocomplete="">
+            <form action="validasisimpan.php" method="post" autocomplete="off">
                 <div class="row">
                     <div class="mb-3 col-12 col-md-6">
                         <label for="nama-pemesan" class="form-label">Nama Pemesan</label>
@@ -43,7 +43,7 @@ include 'layouts/header.php';
                     <div class="mb-3 col-12 col-md-3">
                         <label for="jml-peserta" class="form-label">Jumlah Peserta</label>
                         <div class="input-group input-group-sm">
-                            <input type="number" class="form-control form-Control-sm" id="jml-peserta" name="jml-peserta" aria-describedby="bassic-addon2">
+                            <input type="number" class="form-control form-Control-sm" id="jumlah-orang" name="jumlah-orang" aria-describedby="bassic-addon2">
                             <span class="input-group-text" id="bassic-addon2">orang</span>
                         </div>
                     </div>
@@ -138,11 +138,11 @@ include 'layouts/header.php';
         if (nilai == "1") {
             harga = 500000;
         } else if (nilai == "2") {
-            harga = 7500000
+            harga = 750000
         } else if (nilai == "3") {
-            harga = 1250000
+            harga = 1000000
         } else if (nilai == "4") {
-            harga = 1500000
+            harga = 1250000
         }
         console.log(nilai);
         // alert(harga);
@@ -174,9 +174,24 @@ include 'layouts/header.php';
         }if(Transportasi){
             totallayanan=totallayanan+200000;
         }if(makanan){
-            totallayanan=totallayanan+500000;
+            totallayanan=totallayanan+150000;
         }
         return totallayanan;
+    }
+
+    function hitung(){
+        var hari = Number(document.getElementById("durasi").value);
+       var jumlahPeserta = Number(document.getElementById("jumlah-orang").value);
+       var hargaPaket = Number(document.getElementById("harga-paket").value);
+       var hargalayanan = Number(document.getElementById("harga-layanan").value);
+
+        hargaPaket = hargaPaket || 0;
+        jumlahPeserta = jumlahPeserta || 0;
+        hargalayanan = hargalayanan || 0;
+        hari = hari || 0;
+
+       var jumlahTagihan = ( hargaPaket * jumlahPeserta) + (hargalayanan * jumlahPeserta * hari);
+       document.getElementById("total-pembayaran").value = jumlahTagihan;
     }
 </script>
 <?php
