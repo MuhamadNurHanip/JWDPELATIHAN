@@ -21,7 +21,7 @@
                             <P class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cum
                                 numquam veritatis repudiandae officiis architecto odit provident minima magni fuga?
                                 Reprehenderit quasi accusamus iusto laborum itaque fuga maxime omnis placeat.</P>
-                            <a href="pendaftaran.php" class="btn btn-danger">Daftar Paket</a>
+                            <a href="pemesanan.php" class="btn btn-danger">Daftar Paket</a>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
                             <P class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cum
                                 numquam veritatis repudiandae officiis architecto odit provident minima magni fuga?
                                 Reprehenderit quasi accusamus iusto laborum itaque fuga maxime omnis placeat.</P>
-                            <a href="pendaftaran.php" class="btn btn-danger">Daftar Paket</a>
+                            <a href="pemesanan.php" class="btn btn-danger">Daftar Paket</a>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                             <P class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cum
                                 numquam veritatis repudiandae officiis architecto odit provident minima magni fuga?
                                 Reprehenderit quasi accusamus iusto laborum itaque fuga maxime omnis placeat.</P>
-                            <a href="pendaftaran.php" class="btn btn-danger">Daftar Paket</a>
+                            <a href="pemesanan.php" class="btn btn-danger">Daftar Paket</a>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                             <P class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cum
                                 numquam veritatis repudiandae officiis architecto odit provident minima magni fuga?
                                 Reprehenderit quasi accusamus iusto laborum itaque fuga maxime omnis placeat.</P>
-                            <a href="pendaftaran.php" class="btn btn-danger">Daftar Paket</a>
+                            <a href="pemesanan.php" class="btn btn-danger">Daftar Paket</a>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                             <P class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cum
                                 numquam veritatis repudiandae officiis architecto odit provident minima magni fuga?
                                 Reprehenderit quasi accusamus iusto laborum itaque fuga maxime omnis placeat.</P>
-                            <a href="pendaftaran.php" class="btn btn-danger">Daftar Paket</a>
+                            <a href="pemesanan.php" class="btn btn-danger">Daftar Paket</a>
                         </div>
                     </div>
                 </div>

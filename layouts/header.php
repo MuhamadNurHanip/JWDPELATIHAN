@@ -15,33 +15,35 @@
 
 <body>
     <!-- Header section -->
-    <div class="container mt-3">
-        <div class="px-5 py-3 bg-dark text-white round">
+    <div class="px-2 mt-1">
+        <div class="px-5 py-3 bg-primary text-white rounded">
             <h1>Wisata Banyuwangi</h1>
             <p>Wonderfull Osing of Java</p>
         </div>
 
 
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-dark mt-1" data-bs-theme="dark">
-            <div class="container-fluid">
-                <a class="navbar-brand text-light" href="index.php">Beranda</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded mt-1">
+            <div class="container">
+                <a class="navbar-brand" href="index.php">Beranda</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="pemesanan.php">Pemesanan</a>
+                            <a class="nav-link" href="pemesanan.php"><b>Pesan Paket</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="rekap.php">Daftar Pesan</a>
+                            <a class="nav-link" href="rekap.php"></b>Rekap Data</b></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="tentangkami.php">Tentang Kami</a>
+                            <a class="nav-link" href="tentangkami.php">Tentang Kami</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
+
     </div>

@@ -14,7 +14,7 @@ include 'layouts/header.php';
                         <input type="text" class="form-control form-Control-sm" id="nama-pemesan" name="nama-pemesan" placeholder="Masukkan Nama" required>
                     </div>
                     <div class="mb-3 col-12 col-md-6">
-                        <label for="paket" class="form-label">Pilih Paket</label>
+                        <label for="nama-paket" class="form-label">Pilih Paket</label>
                         <select class="form-select" aria-label="Default select example" id="nama-paket" name="nama-paket" onchange="updatehargaPaket()">
                             <!-- <option selected>Pilih Paket</option> -->
                             <option value="1">Paket 1</option>
@@ -52,18 +52,18 @@ include 'layouts/header.php';
                         <label for="nama-pemesan" class="form-label">Pelayanan Paket Perjalanan</label>
                         <div class="d-lg-flex justify-content-between">
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="Y" id="penginapan" onclick="handlePenginapan(this)">
+                                <input class="form-check-input" type="checkbox" name="penginapan" value="Y" id="penginapan" onclick="handlePenginapan(this)">
                                 <label class="form-check-label" for="penginapan">Penginapan (Rp. 300.000)</label>
                             </div>
 
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="Y" id="transportasi" onclick="handleTransportasi(this)">
+                                <input class="form-check-input" type="checkbox" name="transportasi" value="Y" id="transportasi" onclick="handleTransportasi(this)">
                                 <label class="form-check-label" for="transportasi">Transportasi (Rp. 200.000)</label>
                             </div>
 
                             <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="Y" id="makanan" onclick="handleMakanan(this)">
-                                <label class="form-check-label" for="makanan">Makanan (Rp. 500.000)</label>
+                                <input class="form-check-input" type="checkbox" name="makanan" value="Y" id="makanan" onclick="handleMakanan(this)">
+                                <label class="form-check-label" for="makanan">Makanan (Rp. 150.000)</label>
                             </div>
                         </div>
 
@@ -190,7 +190,7 @@ include 'layouts/header.php';
         hargalayanan = hargalayanan || 0;
         hari = hari || 0;
 
-       var jumlahTagihan = ( hargaPaket * jumlahPeserta) + (hargalayanan * jumlahPeserta * hari);
+       var jumlahTagihan = ( hargaPaket * jumlahPeserta) + (hargalayanan * jumlahPeserta * hari); //harga paket + harga layanan
        document.getElementById("total-pembayaran").value = jumlahTagihan;
     }
 </script>
